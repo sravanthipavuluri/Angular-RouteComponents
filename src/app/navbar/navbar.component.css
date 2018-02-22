@@ -1,0 +1,36 @@
+.bgcls{
+    background-color: dark;
+}
+
+.bgclsrule{
+    background-color:white;
+}
+.imgcls{
+    width:45%;
+    height:5%;
+    margin:0px;
+    padding:0px;
+}
+.navbarcls{
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin: 0px;
+    border-radius: 0px;
+}
+ul li{
+    margin-right:80px;
+}
+ul li a{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+}
+
+.active{
+    color:blue !important;
+
+}

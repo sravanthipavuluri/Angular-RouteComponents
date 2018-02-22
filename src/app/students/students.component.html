@@ -1,0 +1,21 @@
+<div class="container" style="margin-top:50px;margin-right:50px;" >
+    <div class="row">
+      <div class="col-md-12" *ngFor="let student of studentsList">
+        <table>
+          <tr>                                                                                        
+            <td colspan="3" class="divlisthead">{{student.Sname}}</td>
+          </tr>
+          <tr>
+            <th>Course Name</th>
+            <th>Course Duration</th>
+            <th>Course Fee</th>
+          </tr>
+          <tr>
+            <td>{{student.CName}}</td>
+            <td>{{student.Cduration}}</td>
+            <td>{{student.CFee}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>

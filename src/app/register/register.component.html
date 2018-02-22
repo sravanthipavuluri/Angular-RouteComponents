@@ -1,0 +1,23 @@
+<div class="container" style="margin-top:50px;margin-bottom:0px;">
+    <div class="row">
+      <div class="col-md-12">
+          <p class="labelpara">Student Name</p>
+          <input type="text" [(ngModel)]="Sname">
+          <p class="labelpara">Course Name</p>
+          <input type="text" [(ngModel)]="CName">
+          <p class="labelpara">Course Duration</p>
+          <input type="text" [(ngModel)] = "Cduration">
+          <p class="labelpara">Course Fee</p>
+          <input type="text" [(ngModel)] = "CFee">
+  
+          <input type="button" (click)="registerStudent(Msg)" value="Register">
+          <p>
+              Student Name : {{Sname}} <br>
+              Course Name : {{CName}} <br>
+              Duration : {{Cduration}} <br>
+              Fee : {{CFee}} <br>
+          </p>
+          <p #Msg></p>
+        </div>
+    </div>
+  </div>

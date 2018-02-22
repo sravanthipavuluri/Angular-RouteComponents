@@ -1,0 +1,29 @@
+.divlisthead{
+    background-color: gray;
+    width:90%;
+    padding:2px;
+    margin:0px 0px 0px 0px;
+    border-radius: 5px;
+    color:Black;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+th{
+    background-color: white;
+    padding:5px;
+    margin:0px 0px 0px 0px;
+    color:Blue;
+    text-align: center;
+    font-size: 15px;
+}
+td{
+    background-color: white;
+    padding:5px;
+    margin:0px 0px 20px 0px;
+    color:black;
+    text-align: center;
+}
+table{
+    width:100%;
+}
